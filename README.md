@@ -10,6 +10,7 @@ The features I want to have are as follows:
   - Experience
   - Projects
   - Other interesting tabs!
-The model I'm going for will be based off of these two creators, I'll try to personalize it to my liking as much as possible:
-1) Shar [https://www.youtube.com/watch?v=_tWh4cYCTv0&t=772s](url)
-2)
+The model I'm going for will be based off of this creator, I'll try to personalize it to my liking as much as possible:
+Shar: [https://www.youtube.com/watch?v=_tWh4cYCTv0&t=772s](url)
+
+How am I going to go about creating this?
