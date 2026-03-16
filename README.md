@@ -11,8 +11,8 @@ The features I want to have are as follows:
   - Projects
   - Other interesting tabs!
 The model I'm going for will be based off of this creator, I'll try to personalize it to my liking as much as possible:
-Shar: [https://www.youtube.com/watch?v=_tWh4cYCTv0&t=772s](url)
-Website: [https://www.sharyap.com/](url)
+Shar: [Video](https://www.youtube.com/watch?v=_tWh4cYCTv0&t=772s)
+Website: [Shar's Website](https://www.sharyap.com/)
 
 How am I going to go about creating this?
 
