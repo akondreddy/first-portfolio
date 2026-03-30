@@ -15,8 +15,11 @@ Shar: [Video](https://www.youtube.com/watch?v=_tWh4cYCTv0&t=772s)
 Website: [Shar's Website](https://www.sharyap.com/)
 
 Just looked at some more interesting portfolios:
+
 This is one of the coolest websites I've ever seen: [Bruno's Website](https://bruno-simon.com/)
+
 The Netflix idea is very creative: [Sumanth's Website](https://sumanthsamala.com/profile/stalker)
+
 I like the dot on the cursor: [Bettina's Website](https://www.bettinasosa.com/)
 
 How am I going to go about creating this?
