@@ -23,7 +23,7 @@
         <nav class="hero-nav">
           <button class="nav-btn" onclick="openWindow('about')">About</button>
           <button class="nav-btn" onclick="openWindow('links')">Links</button>
-          <button class="nav-btn" onclick="openWindow('process')">Projects</button>
+          <button class="nav-btn" onclick="openWindow('process')">Process</button>
           <button class="nav-btn" onclick="openWindow('contact')">Contact</button>
         </nav>
       </div>
@@ -93,31 +93,37 @@
       </div>
     </div>
 
-    <!-- PROJECTS WINDOW -->
-    <div class="window" id="window-projects" style="top: 380px; left: 520px; width: 480px;">
-      <div class="window-titlebar" onmousedown="startDrag(event, 'window-projects')">
+    <!-- PROCESS WINDOW -->
+    <div class="window" id="window-process" style="top: 380px; left: 520px; width: 480px;">
+      <div class="window-titlebar" onmousedown="startDrag(event, 'window-process')">
         <div class="window-controls">
-          <button class="wc wc-close" onclick="closeWindow('projects')"></button>
-          <button class="wc wc-min" onclick="minimizeWindow('projects')"></button>
-          <button class="wc wc-max" onclick="maximizeWindow('projects')"></button>
+          <button class="wc wc-close" onclick="closeWindow('process')"></button>
+          <button class="wc wc-min" onclick="minimizeWindow('process')"></button>
+          <button class="wc wc-max" onclick="maximizeWindow('process')"></button>
         </div>
-        <span class="window-title">Projects</span>
+        <span class="window-title">Process</span>
       </div>
       <div class="window-body">
-        <div class="projects-steps">
-          <div class="projects-step">
+        <div class="process-steps">
+          <div class="process-step">
             <span class="step-num">01</span>
             <div class="step-content">
-              <strong>AI Interpretability</strong>
-              <p>Randomize images through Gaussian noise to misclassify images their correct classification</p>
-              <p>Run manipulated dataset through pretrained models to generalize findings.</p>
+              <strong>Research & Design</strong>
+              <p>Define the problem, sketch solutions, wireframe the approach.</p>
             </div>
           </div>
-          <div class="projects-step">
+          <div class="process-step">
             <span class="step-num">02</span>
             <div class="step-content">
-              <strong>Element Quest</strong>
-              <p>2D game designed on Unity. Art done on Photoshop</p>
+              <strong>Build & Iterate</strong>
+              <p>Write clean code, test often, refine based on feedback.</p>
+            </div>
+          </div>
+          <div class="process-step">
+            <span class="step-num">03</span>
+            <div class="step-content">
+              <strong>Ship & Learn</strong>
+              <p>Deploy, gather data, and improve continuously.</p>
             </div>
           </div>
         </div>
