@@ -8,8 +8,3 @@ The sections included are as follows:
   - Links
   - Experience
   - Projects
-
-# Acknowledgments
-⭐️[Shar's Website](https://www.sharyap.com/) was a large source of inspiration in the development of this website.
-
-⭐️[Bruno's Website](https://bruno-simon.com/) is an absolute marvel of a portfolio.
