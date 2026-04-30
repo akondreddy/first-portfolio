@@ -2,7 +2,7 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --bg:           #339a89;
+  --bg:           #014d40;
   --bg2:          #1a2220;
   --window-bg:    #1e2826;
   --window-border:#2a3a35;

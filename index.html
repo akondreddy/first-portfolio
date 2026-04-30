@@ -22,8 +22,10 @@
     </div>
 
     <!-- Desktop Icons -->
+
+    <!-- About Icon -->>
     <div class="icon-grid">
-      <button class="icon-btn" onclick="openWindow('About')">
+      <button class="icon-btn" onclick="openWindow('about')">
         <div class="icon-img">
           <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect width="48" height="48" rx="12" fill="#1f2e2a"/>
@@ -34,7 +36,8 @@
         <span class="icon-label">About</span>
       </button>
 
-      <button class="icon-btn" onclick="openWindow('Links')">
+      <!-- Links Icon -->>
+      <button class="icon-btn" onclick="openWindow('links')">
         <div class="icon-img">
           <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect width="48" height="48" rx="12" fill="#1f2e2a"/>
@@ -47,7 +50,8 @@
         <span class="icon-label">Links</span>
       </button>
 
-      <button class="icon-btn" onclick="openWindow('Projects')">
+      <!-- Work Icon -->>
+      <button class="icon-btn" onclick="openWindow('work')">
         <div class="icon-img">
           <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect width="48" height="48" rx="12" fill="#1f2e2a"/>
@@ -61,7 +65,8 @@
         <span class="icon-label">Projects</span>
       </button>
 
-      <button class="icon-btn" onclick="openWindow('Contact')">
+      <!-- Contact Icon -->>
+      <button class="icon-btn" onclick="openWindow('contact')">
         <div class="icon-img">
           <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect width="48" height="48" rx="12" fill="#1f2e2a"/>
@@ -90,7 +95,7 @@
           <button class="wc wc-min"   onclick="minimizeWindow('about')"></button>
           <button class="wc wc-max"   onclick="maximizeWindow('about')"></button>
         </div>
-        <span class="win-title">about</span>
+        <span class="win-title">About</span>
         <div class="win-spacer"></div>
       </div>
       <div class="window-body">
@@ -135,7 +140,7 @@
           <button class="wc wc-min"   onclick="minimizeWindow('links')"></button>
           <button class="wc wc-max"   onclick="maximizeWindow('links')"></button>
         </div>
-        <span class="win-title">links</span>
+        <span class="win-title">Links</span>
         <div class="win-spacer"></div>
       </div>
       <div class="window-body">
@@ -173,6 +178,30 @@
       </div>
     </div>
 
+
+    <!-- =========== WORK WINDOW =========== -->
+    <div class ="window" id="window-work" style="top:420px;left:340px;width:420px;">
+      <div class="window-bar" onmousedown="startDrag(event,'window-work')">
+        <div class="win-controls">
+          <button class="wc wc-close" onclick="closeWindow('work')"></button>
+          <button class="wc wc-min" onclick="minimizeWindow('work')"></button>
+          <button class="wc wc-max" onclick="maximizeWindow('work')"></button>
+        </div>
+        <span class="win-title">Work</span>
+        <div class="win-spac"></div>
+      </div>
+      <div class="window-body">
+        <h2 class="work-heading">Experience 💼</h2>
+        <div class="work-jobs">Work Experience</div>
+        
+
+        <div class="work-projects">Projects</div>
+      </div>
+
+    </div>
+
+
+
     <!-- ========== CONTACT WINDOW ========== -->
     <div class="window" id="window-contact" style="top:420px;left:340px;width:420px;">
       <div class="window-bar" onmousedown="startDrag(event,'window-contact')">
@@ -181,7 +210,7 @@
           <button class="wc wc-min"   onclick="minimizeWindow('contact')"></button>
           <button class="wc wc-max"   onclick="maximizeWindow('contact')"></button>
         </div>
-        <span class="win-title">contact</span>
+        <span class="win-title">Contact</span>
         <div class="win-spacer"></div>
       </div>
       <div class="window-body">
