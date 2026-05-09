@@ -441,6 +441,9 @@ html, body {
 }
 
 /* ===== WORK ===== */
+
+
+
 .work-set{
   font-family: var(--font-main);
   font-size: 23px;
@@ -454,6 +457,12 @@ html, body {
   margin-bottom: 5px;
 }
 
+.work-blurb{
+  font-family: var(--font-mono);
+  font-size: 12px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
 
 
 
